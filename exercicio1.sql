@@ -6,7 +6,7 @@ CREATE TABLE estudantes (
     nome VARCHAR(100), 
     email VARCHAR(100), 
     data_nascimento DATE 
-); 
+);
 
 CREATE TABLE professores ( 
     id_professores INT AUTO_INCREMENT PRIMARY KEY, 
