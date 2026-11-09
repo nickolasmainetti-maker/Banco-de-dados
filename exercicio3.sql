@@ -19,4 +19,6 @@ CREATE TABLE Trabalho (
     PRIMARY KEY (CPF, COD),
     FOREIGN KEY (CPF) REFERENCES Empregado(CPF),
     FOREIGN KEY (COD) REFERENCES Projeto(COD)
-);
+);	
+
+
